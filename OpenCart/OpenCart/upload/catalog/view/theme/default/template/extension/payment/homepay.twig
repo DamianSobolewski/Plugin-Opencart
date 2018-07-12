@@ -1,0 +1,16 @@
+<form action="{{ action }}" method="POST">
+  <input type="hidden" name="uid" value="{{uid}}">
+  <input type="hidden" name="public_key" value="{{public_key}}">
+  <input type="hidden" name="amount" value="{{amount}}">
+  <input type="hidden" name="mode" value="{{mode}}">
+  <input type="hidden" name="control" value="{{control}}">
+  <input type="hidden" name="success_url" value="{{success_url}}">
+  <input type="hidden" name="failure_url" value="{{failure_url}}">
+  <input type="hidden" name="notify_url" value="{{notify_url}}">
+  <input type="hidden" name="crc" value="{{crc}}">
+<div class="buttons">
+	<div class="pull-right">
+		<input type="submit" value="{{ button_confirm }}" class="btn btn-primary" />
+	</div>
+</div>
+</form>
